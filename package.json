@@ -1,0 +1,15 @@
+{
+  "name": "ia",
+  "version": "1.0.0",
+  "main": "aiService.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env aiService.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "openai": "^6.44.0"
+  }
+}
