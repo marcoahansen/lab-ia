@@ -4,12 +4,15 @@
   "main": "aiService.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env aiService.js"
+    "aiService": "node --env-file=.env aiService.js",
+    "ingestion": "node --env-file=.env ingestion.js",
+    "vision": "node --env-file=.env vision.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "openai": "^6.44.0"
   }
 }
